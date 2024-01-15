@@ -1,0 +1,54 @@
+h1 {
+    font-size: 40px;
+    color:darkgreen
+}
+
+h2 {
+    font-size: 24px;
+    color:darkgreen
+}
+
+h4 {
+    font-size: 14px;
+    color:darkolivegreen
+}
+
+p {
+    font-size:18px;
+    color:darkgreen
+}
+
+body {
+    background-color:silver
+}
+
+h1 {
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: medium;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;;
+}
+
+h4 {
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    font-family: 'Instrument Serif', serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
