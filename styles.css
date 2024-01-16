@@ -28,13 +28,6 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
-h2 {
-    font-size: medium;
-    font-family: 'Instrument Serif', serif;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-family: 'Poppins', sans-serif;;
-}
-
 h4 {
     font-family: 'Instrument Serif', serif;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -49,6 +42,6 @@ p {
 
 footer {
     font-family: 'Instrument Serif', serif;
-font-family: 'Montserrat Alternates', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
