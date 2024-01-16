@@ -1,15 +1,21 @@
 h1 {
-    font-size: 40px;
+    font-size: 900;
     color:darkgreen
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 500;
     color:darkgreen
 }
 
+li {
+    font-size: normal;
+    color: darkolivegreen;
+    font-style: italic;
+}
+
 h4 {
-    font-size: 14px;
+    font-size: lighter;
     color:darkolivegreen
 }
 
@@ -26,12 +32,15 @@ h1 {
     font-family: 'Instrument Serif', serif;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
 
 h4 {
     font-family: 'Instrument Serif', serif;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 p {
@@ -44,4 +53,30 @@ footer {
     font-family: 'Instrument Serif', serif;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    line-height: 2;
+    text-align: center;
+    font-weight: bold;
+}
+
+section li {
+    color: red;
+    text-decoration:underline
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a :hover {
+    text-decoration: underline;
+    text-emphasis-color: pink;
+}
+
+section h2 {
+    text-decoration: line-through;
 }
