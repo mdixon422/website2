@@ -32,7 +32,7 @@ h1 {
     font-family: 'Instrument Serif', serif;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 }
 
@@ -40,7 +40,7 @@ h4 {
     font-family: 'Instrument Serif', serif;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -54,29 +54,29 @@ footer {
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 
 p {
     line-height: 2;
-    text-align: center;
-    font-weight: bold;
+    text-align: left;
+    font-weight: normal;
 }
 
 section li {
-    color: red;
+    color: darkolivegreen;
     text-decoration:underline
 }
 a {
     text-decoration: none;
-    color: red;
+    color: darkolivegreen;
 }
 
-a :hover {
-    text-decoration: underline;
+a:hover {
+    text-decoration:underline;
     text-emphasis-color: pink;
 }
 
 section h2 {
-    text-decoration: line-through;
+    text-decoration:underline;
 }
