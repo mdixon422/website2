@@ -39,7 +39,8 @@ p {
 }
 
 body {
-    background-color:lightgray
+    background-image: url(images/otis_redding.webp);
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -170,18 +171,13 @@ a:active {
 .box {
     border: 1px solid black;
     padding: 30px;
-    background-image: url (c:\Users\hcata\OneDrive\Desktop\bellabella.jpg);
-    max-width: 1000px;
-    max-height: 10px;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 100px;
     margin: 0 auto;
-    max-height: 10px;
 }
 
 div {
     margin: 0 auto;
-
 }
