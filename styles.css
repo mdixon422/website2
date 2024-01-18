@@ -1,10 +1,11 @@
 * {
     font-size: 100%;
-    margin: 0;
-    line-height: 1;
-    box-sizing: border-box;
-    /* border: 1px solid red; */
-
+    margin-top: 0%;
+    /*border: 1px solid red;*/
+    border: 1px;
+    line-height: 2;
+    box-sizing: content-box;
+    border-color: darkgreen;
 }
 
 header {
@@ -41,15 +42,13 @@ body {
     background-color:lightgray
 }
 
-body {
-    margin: 40px;
-}
 h1 {
     font-family: 'Instrument Serif', serif;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Poppins', sans-serif;
     text-align: left;
     font-weight: bold;
+    margin: 30px 0;
 
 }
 
@@ -79,10 +78,10 @@ p {
     line-height: 2;
     text-align: left;
     font-weight: normal;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 section li {
@@ -92,6 +91,7 @@ section li {
 a {
     text-decoration: none;
     color: darkolivegreen;
+
 }
 
 section h2 {
@@ -101,8 +101,9 @@ section h2 {
 header,
 section,
 footer {
-    padding: 30px;
+    padding: 20px;
     border-bottom: 5px solid black;
+    border-right: 0px;
 }
 
 h1 {
@@ -112,13 +113,56 @@ h1 {
 section {
     border: 1px dashed rgb(0, 255, 94);
     background-color: white;
+    margin-right: 800px;
 }
 
-ol {
-    margin: auto;
-}
-
-ul {
-    line-height: 2;
+ul, ol {
+    margin: 10px px;
+    line-height: 1;
     list-style: none;
+    margin: 15px 0;
+}
+
+h2 {
+    font-weight: 900;
+}
+
+p {
+    font-weight: 700;
+}
+
+head {
+    font-weight: bold;
+}
+
+footer {
+    list-style: none;
+    text-align: left;
+    line-height: 5px;
+    
+}
+
+a {
+    font-weight: bold;
+    background-color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+    text-decoration: dotted;
+    color: limegreen;
+}
+
+.title {
+    font-size: 36px;
+    text-decoration: underline;
+}
+#click {
+    background-color: wheat;
+    color: darkgreen;
 }
