@@ -1,22 +1,16 @@
 * {
     font-size: 100%;
     margin: 0;
-    line-height: 2;
-    /* border: 1px solid red;*/
-}
-* {
-    font-size: 100%;
-    /* border: 1px solid red; */
-}
-
-* {
-    font-size: 100%;
-    margin: 0;
     line-height: 1;
     box-sizing: border-box;
     /* border: 1px solid red; */
 
 }
+
+header {
+    border-bottom: 5px solid green;
+}
+
 h1 {
     font-size: 900;
     color:darkgreen
@@ -44,9 +38,12 @@ p {
 }
 
 body {
-    background-color:silver
+    background-color:lightgray
 }
 
+body {
+    margin: 40px;
+}
 h1 {
     font-family: 'Instrument Serif', serif;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -61,6 +58,7 @@ h4 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    line-height: 2;
 }
 
 p {
@@ -81,10 +79,10 @@ p {
     line-height: 2;
     text-align: left;
     font-weight: normal;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
     margin-right: 20px;
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
 section li {
@@ -96,46 +94,8 @@ a {
     color: darkolivegreen;
 }
 
-a:hover {
-    text-decoration:underline;
-    text-emphasis-color: pink;
-}
-
 section h2 {
     text-decoration:underline;
-}
-
-body {
-    margin: 50px;
-}
-
-h1 {
-    margin-bottom: 20px;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-h4 {
-    margin-bottom: 20px;
-}
-
-h1 {
-    margin: 30px 0;
-}
-
-<ALL>
-<TOP & BOTTOM> <RIGHT & LEFT>
-<TOP> <RIGHT> <BOTTOM>
-<TOP> <RIGHT> <BOTTOM> <LEFT>
-
-p {
-    margin: 15px 0;
-}
-
-ul, ol {
- margin: 15px 0;
 }
 
 header,
@@ -152,18 +112,13 @@ h1 {
 section {
     border: 1px dashed rgb(0, 255, 94);
     background-color: white;
-    margin: 20px 350px;
 }
 
-section {
-    border-style: 1px solid dark green;
+ol {
+    margin: auto;
 }
 
-.blog-title {
-    font-size: 36px;
-}
-
-.blog-post h2 {
-    font-size: 24px;
-    color: crimson;
+ul {
+    line-height: 2;
+    list-style: none;
 }
