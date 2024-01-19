@@ -1,10 +1,10 @@
 * {
     font-size: 100%;
-    margin-top: 0%;
+    margin-top: 0px;
     /*border: 1px solid red;*/
-    border: 1px;
+    border: 100px;
     line-height: 2;
-    box-sizing: content-box;
+    box-sizing:border-box;
     border-color: darkgreen;
 }
 
@@ -13,34 +13,33 @@ header {
 }
 
 h1 {
-    font-size: 900;
-    color:darkgreen
+    font-size: 1000;
+    color:whitesmoke
 }
 
 h2 {
     font-size: 500;
-    color:darkgreen
+    color:white;
 }
 
 li {
     font-size: normal;
-    color: darkolivegreen;
+    color: whitesmoke;
     font-style: italic;
 }
 
 h4 {
     font-size: lighter;
-    color:darkolivegreen
+    color:whitesmoke;
 }
 
 p {
     font-size:18px;
-    color:darkgreen
+    color:whitesmoke;
 }
 
 body {
-    background-image: url(images/otis_redding.webp);
-    background-repeat: no-repeat;
+    background-color: grey;
 }
 
 h1 {
@@ -86,12 +85,12 @@ p {
 }
 
 section li {
-    color: darkolivegreen;
+    color: white;
     text-decoration:underline
 }
 a {
     text-decoration: none;
-    color: darkolivegreen;
+    color: black;
 
 }
 
@@ -113,12 +112,14 @@ h1 {
 
 section {
     border: 1px dashed rgb(0, 255, 94);
-    background-color: white;
+    background-image: url(images/bellabella.jpg);
     margin-right: 800px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 ul, ol {
-    margin: 10px px;
+    margin: 10px;
     line-height: 1;
     list-style: none;
     margin: 15px 0;
@@ -163,21 +164,27 @@ a:active {
     font-size: 36px;
     text-decoration: underline;
 }
-#click {
-    background-color: wheat;
-    color: darkgreen;
+
+.banner {
+    height: 350px;
+    background-image: url(images/bellabella.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box {
-    border: 1px solid black;
-    padding: 30px;
+    background-image: url(images/otis_redding.webp);
+    background-size: cover;
 }
 
-.container {
-    max-width: 100px;
-    margin: 0 auto;
+.banner {
+    background-position: center;
 }
 
-div {
-    margin: 0 auto;
+.photo {
+    background-position: center;
+}
+
+.icon {
+    background-position: 0 100px;
 }
