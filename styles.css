@@ -39,7 +39,7 @@ p {
 }
 
 body {
-    background-color: grey;
+    background-image: url(images/prism.png);
 }
 
 h1 {
@@ -111,11 +111,14 @@ h1 {
 }
 
 section {
-    border: 1px dashed rgb(0, 255, 94);
+    border: 1px dashed white;
     background-image: url(images/bellabella.jpg);
     margin-right: 800px;
     margin-left: 100px;
     margin-top: 100px;
+    background-repeat: no-repeat;
+    max-width: fit-content;
+    background-position: auto center;
 }
 
 ul, ol {
